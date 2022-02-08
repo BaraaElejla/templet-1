@@ -1,0 +1,200 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+header {
+  height: 200px;
+  background-color: black;
+}
+header img {
+  width: 20%;
+  margin-top: 50px;
+  border-radius: 150px;
+}
+.clear {
+  clear: both;
+  height: 180px;
+}
+.main-div h1 {
+  color: #007199;
+  font-size: 40px;
+}
+.main-div p {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 50px;
+}
+.table-main {
+  margin-top: 60px;
+}
+table {
+  border-collapse: collapse;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.tabel-tow input {
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  direction: rtl;
+}
+table .tabel-one {
+  border-color: #529900;
+  border-width: 3px;
+  border-right: none;
+  border-top: none;
+  font-size: 20px;
+}
+table .tabel-tow {
+  border-color: #529900;
+  border-width: 3px;
+  border-left: none;
+  border-top: none;
+}
+.overlay {
+  padding-top: 50px;
+}
+.overlay hr {
+    width: 800px;
+    height: 10px;
+    background-color: brown;
+}
+
+
+.secand-table .tabel-three{
+  border-color: #529900;
+  border-width: 3px;
+  border-right: none;
+  border-top: none;
+  font-size: 20px;
+}
+.secand-table .tabel-four input{
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  direction: rtl;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+@media (max-width: 576px) {
+  header img {
+    width: 50%;
+    margin-top: 85px;
+    border-radius: 150px;
+  }
+  .overlay hr {
+    width: 450px;
+    height: 10px;
+    background-color: brown;
+}
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  header img {
+    width: 40%;
+    margin-top: 80px;
+    border-radius: 150px;
+  } 
+  .overlay hr {
+    width: 650px;
+    height: 10px;
+    background-color: brown;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  header img {
+    width: 30%;
+    margin-top: 80px;
+    border-radius: 150px;
+  } 
+  .overlay hr {
+    width: 850px;
+    height: 10px;
+    background-color: brown;
+}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  header img {
+    width: 20%;
+    margin-top: 60px;
+    border-radius: 150px;
+  }
+}
